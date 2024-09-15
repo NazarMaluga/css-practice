@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #f8f9fa;
+    height: 30vh;
+    justify-content: flex-start;
+}
+
+.main {
+    background-color: #e9ecef;
+    height: 40vh;
+}
+
+.footer {
+    background-color: #dee2e6;
+    height: 30vh;
+    justify-content: flex-end;
+}
+
+.text {
+    font-size: 16px; 
+    color: #333; 
+}
